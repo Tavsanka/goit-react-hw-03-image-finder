@@ -68,7 +68,7 @@ class App extends Component {
     const { images, isLoading, showModal, largeImageURL } = this.state;
 
     return (
-      <div className="App">
+      <div className={"App"}>
         <Searchbar onSubmit={this.handleSearchSubmit} />
         <ImageGallery images={images} onImageClick={this.openModal} />
         {isLoading && <Loader />}
