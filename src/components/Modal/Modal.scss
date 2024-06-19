@@ -1,12 +1,17 @@
 .modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: calc(100vw - 48px);
   max-height: calc(100vh - 24px);
 }
 
 .modal img {
   display: block;
-  max-width: 100%;
+  max-width: 90%;
+  max-height: 90%;
   height: auto;
+  width: auto;
 }
 
 .overlay {
