@@ -24,6 +24,8 @@ class Searchbar extends Component {
           <input
             className={"input"}
             type="text"
+            name="search"
+            id="search"
             autoComplete="off"
             autoFocus
             placeholder="Search images and photos"
